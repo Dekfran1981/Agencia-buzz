@@ -1,7 +1,9 @@
 $background-color:rgb(0, 0, 0);
 $background:red;
 $color1:blue;
-$color2:white;
+$color-blanco:rgb(255, 255, 255);
+$color-negro:rgb(0, 0, 0);
+$sombra-negro:red;
 
 
 
@@ -36,8 +38,8 @@ $color2:white;
       &:hover {
         transform: scale(1.1);
         background-color:$background-color;
-        color: #ffffff;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        color:$color-blanco;
+        box-shadow: 0 0 10px $sombra-negro;
       }
     }
   }
@@ -62,8 +64,8 @@ $color2:white;
     padding: 2rem;
     border-radius: 10px;
     text-align: center;
-    color: #fff;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    color:$color-blanco;
+    text-shadow: 2px 2px 4px $sombra-negro;
   
     h1 {
       font-size: 3rem;
@@ -94,8 +96,8 @@ $color2:white;
       z-index: 1;
       font-size: 2rem;
       font-weight: bold;
-      color: #fff;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      color:$color-blanco;
+      text-shadow: 2px 2px 4px$sombra-negro;
     }
   }
   
@@ -115,8 +117,8 @@ $color2:white;
       z-index: 1;
       font-size: 2rem;
       font-weight: bold;
-      color: #fff;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      color:$color-blanco;
+      text-shadow: 2px 2px 4px $sombra-negro;
     }
   
     img {
@@ -163,7 +165,7 @@ $color2:white;
       border: none;
       border-radius: 5px;
       background-color:$background;
-      color: #000;
+      color:$color-negro;
       font-size: 1.2rem;
     }
   
@@ -175,27 +177,27 @@ $color2:white;
   
     input[type="submit"] {
       background-color:$background;
-      color: #000000;
+      color:$color-negro;
       box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   
       &:hover {
         transform: scale(1.1);
         background-color:$background-color;
-        color: #ffffff;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        color:$color-blanco;
+        box-shadow: 0 0 10px$sombra-negro;
       }
     }
   
     input[type="reset"] {
       background-color:$background;
-      color: #000000;
-      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+      color:$color-negro;
+      box-shadow: 0 0 5px $sombra-negro;
   
       &:hover {
         transform: scale(1.1);
         background-color:$background-color;
-        color: #ffffff;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        color:$color-blanco;
+        box-shadow: 0 0 10px $sombra-negro;
       }
     }
   
@@ -206,7 +208,7 @@ $color2:white;
   
   .footer {
     background-color: white;
-    color: #ffffff;
+    color:$color-blanco;
     font-size: 4rem;
     font-weight: bold;
     padding: 1rem;
@@ -233,7 +235,7 @@ $color2:white;
       font-size: 1.6rem;
       padding: 0.5rem;
       background-color:$background-color;
-      color: #ffffff;
+      color: $color-blanco;
     }
   
     .formulario-contacto {

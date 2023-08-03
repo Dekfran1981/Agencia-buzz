@@ -28,8 +28,8 @@ body {
 .btn-primary:hover {
   transform: scale(1.1);
   background-color: rgb(0, 0, 0);
-  color: #ffffff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+  box-shadow: 0 0 10px red;
 }
 
 .imagen-principal {
@@ -52,8 +52,8 @@ body {
   padding: 2rem;
   border-radius: 10px;
   text-align: center;
-  color: #fff;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 4px red;
 }
 .texto-principal h1 {
   font-size: 3rem;
@@ -82,8 +82,8 @@ body {
   z-index: 1;
   font-size: 2rem;
   font-weight: bold;
-  color: #fff;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 4px red;
 }
 
 .logo,
@@ -109,8 +109,8 @@ body {
   z-index: 1;
   font-size: 2rem;
   font-weight: bold;
-  color: #fff;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 4px red;
 }
 .logo img,
 .quien img,
@@ -169,7 +169,7 @@ body {
   border: none;
   border-radius: 5px;
   background-color: red;
-  color: #000;
+  color: rgb(0, 0, 0);
   font-size: 1.2rem;
 }
 .formulario-contacto input[type=submit],
@@ -179,25 +179,25 @@ body {
 }
 .formulario-contacto input[type=submit] {
   background-color: red;
-  color: #000000;
+  color: rgb(0, 0, 0);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 .formulario-contacto input[type=submit]:hover {
   transform: scale(1.1);
   background-color: rgb(0, 0, 0);
-  color: #ffffff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+  box-shadow: 0 0 10px red;
 }
 .formulario-contacto input[type=reset] {
   background-color: red;
-  color: #000000;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  color: rgb(0, 0, 0);
+  box-shadow: 0 0 5px red;
 }
 .formulario-contacto input[type=reset]:hover {
   transform: scale(1.1);
   background-color: rgb(0, 0, 0);
-  color: #ffffff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+  box-shadow: 0 0 10px red;
 }
 .formulario-contacto textarea {
   height: 10rem;
@@ -205,7 +205,7 @@ body {
 
 .footer {
   background-color: white;
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   font-size: 4rem;
   font-weight: bold;
   padding: 1rem;
@@ -230,7 +230,7 @@ body {
     font-size: 1.6rem;
     padding: 0.5rem;
     background-color: rgb(0, 0, 0);
-    color: #ffffff;
+    color: rgb(255, 255, 255);
   }
   .formulario-contacto {
     padding: 1rem;
