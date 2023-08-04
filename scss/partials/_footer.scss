@@ -1,0 +1,46 @@
+.footer {
+    background-color: white;
+    color: $colorTexto;
+    font-size: 4rem;
+    font-weight: bold;
+    padding: 1rem;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  
+    p {
+      margin: 1rem 0;
+    }
+  }
+  
+  /* nueva regla para cambiar el color del texto a blanco */
+  .container, .grilla, .footer, .formulario-contacto, .formulario-contacto * {
+    color: $colorTexto;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .grilla {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
+      padding: 1rem;
+  
+      .seccion-titulo {
+        top: 45%;
+      }
+    }
+  
+    .footer {
+      font-size: 1.6rem;
+      padding: 0.5rem;
+      background-color: $colorFondo;
+      color: $colorTexto;
+    }
+  
+    .formulario-contacto {
+      padding: 1rem;
+      font-size: 50rem;
+    }
+  }

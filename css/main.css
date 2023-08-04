@@ -75,7 +75,8 @@ body {
   position: relative;
 }
 .grilla .seccion-titulo {
-  position: absolute;
+  position: relative;
+  z-index:auto;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -84,6 +85,7 @@ body {
   font-weight: bold;
   color: #fef5f5;
   text-shadow: 2px 2px 4px #716868;
+ 
 }
 
 .logo,
@@ -220,7 +222,7 @@ body {
   margin: 1rem 0;
 }
 
-/* nueva regla para cambiar el color del texto a blanco */
+
 .container, .grilla, .footer, .formulario-contacto, .formulario-contacto * {
   color: #fef5f5;
 }

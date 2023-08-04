@@ -1,0 +1,17 @@
+.texto-principal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: $colorFondo;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    color: $colorTexto;
+    text-shadow: 2px 2px 4px $colorSombraTexto;
+  
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+  }

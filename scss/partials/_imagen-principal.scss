@@ -1,0 +1,11 @@
+.imagen-principal {
+    position: relative;
+  
+    img {
+      width: 100%;
+      height: auto;
+      -o-object-fit: cover;
+      object-fit: cover;
+      max-height: 500px;
+    }
+  }
