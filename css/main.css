@@ -5,8 +5,8 @@
 }
 
 body {
-  background-color: #110f0f;
-  background-image: linear-gradient(to left,rgb(114, 114, 125),rgb(2, 21, 2),yellow);
+  background-color: #10110f;
+  background-image: linear-gradient(to left,rgb(24, 24, 169),rgb(42, 200, 42),rgb(180, 21, 21));
 }
 
 .btn {

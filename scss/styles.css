@@ -6,6 +6,7 @@
 
 body {
   background-color: #110f0f;
+  background-image: linear-gradient(to left,rgb(114, 114, 125),rgb(2, 21, 2),yellow);
 }
 
 .btn {
