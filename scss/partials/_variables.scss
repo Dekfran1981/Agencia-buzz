@@ -8,15 +8,18 @@ $colorFondoFormulario: rgba(255, 255, 255, 0.1);
 $colorFondoBotonFormulario: #1a1919;
 $colorTextoBotonFormulario: #121111;
 $colorSombraBotonFormulario: #716868;
+$colortextoprincpal:rgba(17, 15, 15, 0.7); ;
 
 $num-inicio: 1;
-$num-fin: 5;
+$num-fin: 10;
+$font-size: 1.5;
+$color: 15;
 
 @for $i from $num-inicio through $num-fin {
   $font-size: $i * 0.5;
   $color: $i * 10;
   $color-hex: '#' + ($color * 10000);
-  
+
   .elemento-#{$i} {
     font-size: #{$font-size}rem;
     color: #{$color-hex};
